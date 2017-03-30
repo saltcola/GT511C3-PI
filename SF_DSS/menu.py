@@ -232,7 +232,7 @@ def removeAll():
     return
 
 def unlock():
-    takePic()
+    #takePic()
     f.CmosLed(True)
     print("Place your finger on the scanner\n")
     f.WaitForFinger(False)
